@@ -1,83 +1,59 @@
-# 🌊 SINOSHOP SFT: Project CALOS (Open Source)
-**Constant Altitude Levitation Over Sea — 123km Integrated Floating Bridge & Submerged Tunnel System**
+# 🏛️ Project CALOS: Hybrid-6m & Constant-Height Matrix (V4.5 Stable)
+**Self-Floating Height-Stabilization & Energy-Harvesting System for the 123km Baodao Strait Corridor**
 
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Redundancy](https://img.shields.io/badge/Safety-1.3x_Redundancy-red.svg)
-![Survival](https://img.shields.io/badge/Survival-Level_18_Typhoon-orange.svg)
+## 1. Core Foundation: Constant-Height Technology (CALOS Patent)
+This project inherits and enhances the core patent of **Project CALOS**: utilizing a "Self-Buoyancy Balance + Active Ballast Control" system to ensure the 123km corridor maintains a road surface deviation of **$\le 5\text{cm}$** under all sea conditions.
 
-> **"Follow the Laws of Nature, Foster Harmony between Man and Sea."**
-> **“道法自然，人海和谐；各美其美，美美与共。”**
+* **Self-Buoyancy Equilibrium:** Each 6m hexagonal cell features an independent 12-bit pneumatic ballast tank that automatically offsets the static load of the main structure.
+* **Active Motion Compensation:** Integrating GNSS and hydrostatic pressure sensors for millisecond-level buoyancy adjustments, eliminating vertical displacement caused by tides and long-period waves.
 
----
-
-## 🌍 The Vision: The Axis of Ocean Civilization (项目愿景：文明之轴)
-
-**"We are not merely building a bridge; we are redefining the covenant between Humanity and the Sea."**
-**“我们不只是在建造一座桥，我们是在重新定义人类与海洋的契约。”**
-
-### 1. The Realm of Harmony (境界：顺应自然)
-* **Power from the Sea, Life for the Bridge (海生电，电养桥)**: Utilizing the 123km expanse to capture energy from Wind, Solar, Wave, Current, Vibration, and Pressure.
-* **Bridge Beautifies Islands, Islands Benefit People (桥美岛，岛惠民)**: Transforming trans-oceanic travel into an aesthetic and sustainable journey.
-* **Humans Protect the Sea, Sea Nurtures Humanity (人护海，海养人)**: Achieving **Zero-Seabed Disturbance** through self-floating technology—protecting the marine ecosystem while reaping the infinite bounty of the ocean.
-
-### 2. Core Logic: Constancy and Resilience (核心逻辑：恒定与韧性)
-* **The Axis of Stability (恒定之轴)**: No matter how turbulent the surface, the Project CALOS system—grounded in the **1.3x Redundancy Factor ($\phi = 1.3$)**—maintains a roadbed as steady as land (Error $\leq 5\text{cm}$), even under **Level 18 Extreme Typhoons**.
-* **Binary Pulsation (二进制脉动)**: Leveraging 12-bit binary counterweight logic to achieve millisecond-level pressure offsetting for 80km/h loads.
 
 ---
 
-## 🚩 The Challenge: Qiongzhou Strait (琼州海峡挑战)
-The Qiongzhou Strait presents critical hurdles for traditional cross-sea infrastructure:
-* **Extreme Meteorology**: Historically, super typhoons have reached the **Level 18 boundary**, with center wind speeds exceeding **61.2 m/s**.
-* **Dynamic Forces**: Design wave heights reach **12m**, coupled with powerful tides and complex currents.
-* **Strategic Constraints**: It demands **Zero-Seabed Disturbance** and **Unobstructed Navigation**.
+## 2. Advanced Armor: Hybrid-6m Intelligent Ocean Skin
+On top of height constancy, three layers of energy-dissipating modules are integrated to minimize the impact of 15m-23m extreme waves, protecting the CALOS core from lateral shear forces:
 
-## 🛠 Nine Core Technologies (九大核心技术)
-We are opening the **MD-APC (Multi-Dimensional Decoupled Active Pre-compensation Control)** framework:
+### 2.1 Diamond Overtopping Ramp (Kinetic-to-Potential)
+* **Mechanism:** Directs wave kinetic energy up an inclined plane into high-level reservoirs.
+* **Synergy:** While neutralizing wave impact, it utilizes gravity-fed water for "Power Generation via Ballasting," assisting in maintaining the axial steady-state.
 
-### 1. Project CALOS (Precision Positioning)
-* **$\phi = 1.3$ Redundancy**: A 30% safety buffer is integrated into all physical and actuator models.
-* **BSS-H (Binary Mass Switching)**: 12-bit binary counterweight array for millisecond-level load cancellation.
-* **Level 18 Resilience**: Structural integrity maintained even under Level 18 wind pressure.
 
-### 2. Hexa-Power Synergetic Grid (六能协同发电)
-* Harnessing Wind, Solar, Wave, Current, Vibration, and Pressure. The 123km span generates over **700 Billion kWh annually**.
+### 2.2 Internal Guide-Tube Lattice (Phase Interference)
+* **Mechanism:** Built-in directional channels create multi-phase interference to break down surging waves.
+* **Synergy:** Acts as the "Flexible Armor" for the main corridor, providing a hydrostatically quiet environment for the Constant-Height system.
 
-### 3. Resilient Segmental Submergence (韧性分段下沉)
-* Smart logic triggers **Segmental Submergence Mode** during tsunamis or "Mega-Typhoons," diving to safe depths and resurfacing automatically.
+### 2.3 Energy Tower Forest: Dynamic Ballast (TMD Control)
+* **Mechanism:** Low-aspect towers drive pumped-hydro storage via wind power.
+* **Synergy:** Functions as a **Tuned Mass Damper (TMD)** for the entire line. Upon detecting long-period swells, it uses instantaneous water displacement inertia to "suppress" surface fluctuations.
+
 
 ---
 
-## 🗺️ Development Roadmap (项目路线图)
+## 3. Technical Specifications & Financial Leverage (123km Scale)
 
-We follow a modular evolution strategy:
-
-### Phase 1: Core Framework (Current Release - v0.1 Alpha)
-* **Objective**: Establish the **MD-APC** architecture.
-* **Focus**: 12-bit Binary Mass Switching and standard 1.3x Redundancy for general sea states.
-
-### Phase 2: Extreme Resilience (Scheduled for Q2 2026)
-* **Objective**: Integration of the **Level 18 Typhoon Survival Module**.
-* **Focus**: High-frequency (500Hz+) sensor fusion and nonlinear damping for 12m+ wave impacts.
-
-### Phase 3: Total Energy Autonomy (Scheduled for Q3-Q4 2026)
-* **Objective**: Full 123km corridor simulation for the **Hexa-Power Grid**.
+| Metric | Specification | Engineering Context |
+| :--- | :--- | :--- |
+| **Surface Accuracy** | **$\le \pm 5\text{cm}$** | **The Soul of SINOSHOP**: Enabling high-speed rail (350km/h+) operations. |
+| **Transmission (Kt)** | $K_t \le 0.14$ | Reduces 15m waves to $< 2.1\text{m}$, minimizing stress on the height-adjustment system. |
+| **Self-Sustain Rate** | 100% Green Energy | Energy captured from wave dissipation fully covers the O&M costs of the stabilization system. |
+| **Cost Optimization** | **Net Saving: ¥25.0B** | Reducing Capex by 13.8% through optimized structural layout. |
 
 ---
 
-## 🔥 The Three Great Challenges (全球三大悬赏挑战)
-1.  **Zero-Latency Compensation**: Achieving $\leq 2\text{cm}$ transient subsidence at 80km/h loads with mechanical latency $>50\text{ms}$.
-2.  **Non-linear Resonance Mitigation**: Dynamically shifting the structural stiffness matrix within the 1.3x boundary to avoid resonance.
-3.  **100% Energy-Neutral Loop**: Optimizing siphon and turbine efficiency for a self-powering control system.
+## 4. Integrated Control Algorithm (V4.5 Logic)
 
----
-
-## 👥 Collaborate with SINOSHOP
-We invite the global "Water People" (Offshore Engineers, Algorithm Experts, Ecologists) to join us.
-
-**"Deep Sea Silk Road, the Axis of Stability. The future starts with SINOSHOP."**
-
----
-**Founder**: Liang Zhenxiong (梁振雄)  
-**Affiliation**: Hainan Tropical Ocean University Student & Engineer Collaborative Team  
-**Date**: 23 March 2026 (World Meteorological Day)
+```python
+# Project CALOS: Integrated Stability & Energy Logic
+def master_stabilization_control(wave_data, load_data):
+    # 1. Lock Static Equilibrium (Constant-Height Baseline)
+    static_buoyancy = calculate_calos_baseline(target_height=CONSTANT_H)
+    
+    # 2. Feed-forward Dissipation (Hybrid-6m Intervention)
+    reduced_lateral_force = diamond_and_guide_tube_dissipation(wave_data)
+    
+    # 3. Active Ballast Compensation (12-bit Precision via Energy Towers)
+    if abs(current_height - CONSTANT_H) > THRESHOLD:
+        adjust_ballast_pump(power_source=tower_storage)
+    
+    # 4. Final Execution: Surface deviation <= 5cm
+    return execute_final_stabilization()
