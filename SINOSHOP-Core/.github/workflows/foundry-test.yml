@@ -24,6 +24,22 @@ jobs:
         with:
           version: stable
 
+      - name: Force install missing dependencies
+        run: |
+          # 如果 forge-std 子模块是空的，直接用 forge install 安装（使用 --no-git 避免交互）
+          if [ ! -f "lib/forge-std/src/Test.sol" ]; then
+            echo "forge-std 子模块缺失，正在用 forge install 安装..."
+            rm -rf lib/forge-std
+            forge install foundry-rs/forge-std --no-git
+          fi
+          if [ ! -d "lib/openzeppelin-contracts/contracts" ]; then
+            echo "openzeppelin-contracts 缺失，正在安装..."
+            rm -rf lib/openzeppelin-contracts
+            forge install OpenZeppelin/openzeppelin-contracts --no-git
+          fi
+          # 刷新 remappings
+          forge remappings > remappings.txt
+
       - name: Run all tests with gas report
         run: |
           forge clean
