@@ -1,0 +1,14 @@
+[profile.default]
+src = 'contracts'
+test = 'test'             # 终极修正：与你的物理目录名“test”完全对齐
+out = 'out'
+libs = ['lib']
+solc = '0.8.20'
+evm_version = 'shanghai'
+
+# 显式映射：为编译器提供绝对路径指令
+remappings = [
+    '@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/',
+    'forge-std/=lib/forge-std/src/',
+    'ds-test/=lib/forge-std/lib/ds-test/src/'
+]
